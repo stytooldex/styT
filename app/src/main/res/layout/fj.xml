@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<android.support.design.widget.AppBarLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:theme="@style/AppTheme.AppBarOverlay">
+
+		<android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/toolbar"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"
+			app:title="GIF分解">
+
+	    </android.support.v7.widget.Toolbar>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<ListView
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:id="@+id/list2"
+	    android:layout_weight="1.0">
+
+	</ListView>
+
+	<LinearLayout
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+	    <Button
+		android:layout_height="match_parent"
+		android:text="@string/fj_text_0"
+		android:layout_width="match_parent"
+		android:id="@+id/bn_add2"
+
+		android:textColor="#FFFFFF"
+		android:layout_margin="10dp"
+		android:layout_weight="1.0"/>
+
+	    <Button
+		android:layout_height="match_parent"
+		android:text="@string/fj_text_1"
+		android:layout_width="match_parent"
+
+		android:textColor="#FFFFFF"
+		android:id="@+id/bn_clear2"
+		android:layout_margin="10dp"
+		android:layout_weight="1.0"/>
+
+	    <Button
+		android:layout_height="match_parent"
+		android:text="@string/fj_text_2"
+		android:layout_width="match_parent"
+
+		android:textColor="#FFFFFF"
+		android:layout_margin="10dp"
+		android:id="@+id/bn_fj"
+		android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

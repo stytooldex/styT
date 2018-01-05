@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lxw_id_look_image_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <TextView
+        android:id="@+id/lxw_id_look_img_position"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/lxw_shape_viewpager_oval_rect"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/lxw_look_image_text_0"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

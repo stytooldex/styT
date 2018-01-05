@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="item_touch_helper_previous_elevation" type="id" />
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+    <item name="viewpager_inner" type="id" />
+    <item name="material_target_prompt_view" type="id" />
+</resources>

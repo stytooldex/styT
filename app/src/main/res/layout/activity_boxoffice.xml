@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDayCN"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_day_cn"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnDayHK"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_day_hk"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnDayUS"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_day_us"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWeekCN"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_week_cn"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnWeekHK"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_week_hk"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnWekkUS"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_week_us"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWeekendCN"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_weekend_cn"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnWeekendHK"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_weekend_hk"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnWeekendUS"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/boxoffice_api_btn_weekend_us"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd"
+        android:padding="10dp"
+        android:text="@string/boxoffice_api_title_result"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:cacheColorHint="#00000000"
+        android:divider="#ffd1d1d1"
+        android:dividerHeight="1px"
+        android:listSelector="#00000000" />
+
+</LinearLayout>

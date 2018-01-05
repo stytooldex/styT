@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrays_led_magicstyle">
+        <item>scale</item>
+        <item>evaporate</item>
+        <item>fall</item>
+        <item>pixelate</item>
+        <item>sparkle</item>
+        <item>anvil</item>
+        <item>line</item>
+        <item>typer</item>
+        <item>rainbow</item>
+    </string-array>
+    <string-array name="languages">
+        <item>展开全部</item>
+        <item>展开上行 </item>
+        <item>展开下行</item>
+    </string-array>
+    <string-array name="type">
+        <item>2进制</item>
+        <item>8进制</item>
+        <item>10进制</item>
+        <item>16进制</item>
+    </string-array>
+    <string-array name="data">
+        <item>接口一</item>
+        <item>接口二 </item>
+        <item>接口三</item>
+        <item>接口四</item>
+        <item>接口五</item>
+        <item>接口六</item>
+        <item>接口七</item>
+        <item>接口八</item>
+        <item>接口九</item>
+        <item>接口十</item>
+        <item>接口十一</item>
+        <item>接口十二</item>
+        <item>接口十三</item>
+        <item>接口十四</item>
+    </string-array>
+</resources>

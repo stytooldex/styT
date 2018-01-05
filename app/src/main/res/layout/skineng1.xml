@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/seTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信->收付款->二维码收款->保存收款码->\n妮哩->pay->选择图片->/WeiXin{选择收款码}"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+

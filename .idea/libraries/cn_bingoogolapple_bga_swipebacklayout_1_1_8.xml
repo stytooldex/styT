@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="cn.bingoogolapple:bga-swipebacklayout-1.1.8">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bga-swipebacklayout-1.1.8.aar/ca198978adc56d05248fbee94a9f4545/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bga-swipebacklayout-1.1.8.aar/ca198978adc56d05248fbee94a9f4545/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-swipebacklayout/1.1.8/3fb65777699c94c35df72625403fa8639caf1b11/bga-swipebacklayout-1.1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

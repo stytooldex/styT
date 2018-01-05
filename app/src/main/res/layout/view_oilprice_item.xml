@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvProvince"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvDieselOil0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvGasoline90"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#aaaaaa"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvGasoline93"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvGasoline97"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#aaaaaa"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,275 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">妮哩</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="delay_message">延迟0毫秒抢红包红包</string>
+    <string name="del_">。。。</string>
+    <string name="dex_apktool">复制成功</string>
+    <string name="mt_apktool">执行成功5分钟内查看</string>
+    <string name="intro">解除（MIUI）授权25秒</string>
+    <string name="app_nam">妮哩-QQ抢红包</string>
+    <string name="start_server">启动服务</string>
+    <string name="stop_server">停止服务：挂后台需要自启服务</string>
+    <string name="notif_server_starting">远程管理服务已启动</string>
+    <string name="notif_title">远程管理服务正在运行</string>
+    <string name="storage_warning">外部存储不可用.</string>
+    <string name="wifi_state">WiFi状态</string>
+    <string name="instruction_pre">启动后可以从电脑端远程管理手机文件</string>
+    <string name="instruction">请在“我的电脑”地址栏中输入：</string>
+    <string name="no_wifi">无WiFi网络</string>
+    <string name="no_wifi_hint">需要WiFi网络</string>
+
+    <string name="app_id">35</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">登录密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">此电子邮件地址无效</string>
+    <string name="error_invalid_password">些密码太短</string>
+    <string name="error_field_required">还没有输入邮箱号</string>
+
+    <string name="close_description">妮哩http://-自动抢红包</string>
+
+    <!-- Strings related to Settings -->
+    <string name="crop__saving">正在保存照片…</string>
+    <string name="crop__wait">请等待…</string>
+    <string name="crop__pick_error">无效的图片</string>
+
+    <string name="crop__done">完成</string>
+    <string name="crop__cancel" tools:ignore="ButtonCase">取消</string>
+    <!-- Example General settings -->
+    <integer-array name="material_colors">
+        <item>@color/material_red</item>
+        <item>@color/material_green</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_yellow</item>
+    </integer-array>
+    <!-- Example settings for Data & Sync -->
+    <string name="text_welfare">福利</string>
+    <!-- Example settings for Notifications -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="fj_text_0">添加</string>
+    <string name="fj_text_1">清空</string>
+    <string name="fj_text_2">分解GIF</string>
+    <string name="hc_text_0">添加</string>
+    <string name="hc_text_1">清空</string>
+    <string name="hc_text_2">合成GIF</string>
+    <string name="iy_text_0">选择本地视频</string>
+    <string name="iy_text_1">开始转换</string>
+    <string name="iy_text_2">妮哩</string>
+    <string name="mn_text_0">  选择视频文件  </string>
+    <string name="mn_hint_text_1">默认保存路径: /sdcard/Android/styTool/</string>
+    <string name="mn_text_2">修改删除原文件</string>
+    <string name="mn_text_3">确定修改</string>
+    <string name="mn_text_4">转换比例：</string>
+    <string name="aew_hint_text_0">请输入号码</string>
+    <string name="log_hint_text_0">请输入邮箱</string>
+    <string name="log_text_1">确定</string>
+    <string name="a_fg_hint_text_0">写记事条</string>
+    <string name="a_hn_hint_text_0">修改</string>
+    <string name="a_hn_text_1">删除本记事条</string>
+    <string name="a_xp_hint_text_0">请输入内容…（结果）</string>
+    <string name="a_xp_hint_text_1">请输入内容…（加-解 密）</string>
+    <string name="a_xp_text_2">解密</string>
+    <string name="a_xp_text_3">加密</string>
+    <string name="a_xp_text_4">转换U码</string>
+    <string name="a_xp_text_5">转换中文</string>
+    <string name="aw_q_hint_text_0">编辑正文</string>
+    <string name="edit_hint_text_0">德马西亚</string>
+    <string name="item_text_0">卸载</string>
+    <string name="likn_text_0">评论</string>
+    <string name="main_text_0">评论</string>
+    <string name="tgy2_text_0">1</string>
+    <string name="tgy2_text_1">12</string>
+    <string name="x5x5_text_0">TextView</string>
+    <string name="a_ixi_text_1">TextView=></string>
+    <string name="a_ixi_hint_text_2">写评论</string>
+    <string name="a_qwp_text_0">启用内存监听</string>
+    <string name="a_qwp_text_1">停用内存监听</string>
+    <string name="bilii_hint_text_0">请输入AV号</string>
+    <string name="bilii_text_1">查询</string>
+    <string name="bilii_text_2">下载</string>
+    <string name="eootb_hint_text_0">输入数值 300–700</string>
+    <string name="eootb_text_1">方式:shell</string>
+    <string name="a_bbbw_text_0">5201314acc</string>
+    <string name="a_bbbw_text_1">5201314a</string>
+    <string name="a_bbbw_text_2">0</string>
+    <string name="a_bbbw_text_3">0</string>
+    <string name="a_mbdx_text_0">5201314a</string>
+    <string name="acmain_text_0">添加日记</string>
+    <string name="chose__text_0">lxw_id_push_helps_comm</string>
+    <string name="chose__text_1">注:会删除选中目标下面全部文件</string>
+    <string name="chose__text_2">禁止再次生成到设备</string>
+    <string name="eootb2_text_1">wm size</string>
+    <string name="eootb2_text_2">1080</string>
+    <string name="eootb2_text_3">x</string>
+    <string name="eootb2_text_4">2220</string>
+    <string name="item_t_text_0">23333</string>
+    <string name="item_t_text_1">TextView</string>
+    <string name="s_boom_text_0">清除…</string>
+    <string name="ad_ssss_hint_text_0">内容</string>
+    <string name="back_ma_hint_text_0">自定义保存名字,支持分享到QQ群</string>
+    <string name="me_main_text_0">复制</string>
+    <string name="qr_view_text_0">分享密码给朋友</string>
+    <string name="art_main_text_0">开始清除</string>
+    <string name="art_main_text_1">确定清除缓存</string>
+    <string name="cpl_main_text_0">发现新版</string>
+    <string name="listitem_text_0">123</string>
+    <string name="listitem_text_1">123456</string>
+    <string name="lxw_blog_hint_text_0">QQ-球球大作战地址</string>
+    <string name="bilibilib_hint_text_0">请输入QQ蓝色说说文字</string>
+    <string name="bilibilib_text_1">1212</string>
+    <string name="bilibilic_hint_text_0">请输入你制作搜索的问题</string>
+    <string name="html_main_hint_text_0">请输入网址（需要http://开头）</string>
+    <string name="wlfl_item_text_0">点击分享</string>
+    <string name="wlfl_item_text_1">Wi-Fi密码：</string>
+    <string name="wlfl_item_text_2">加密类型：</string>
+    <string name="wlfl_main_text_0">没有root</string>
+    <string name="b_bilibili_hint_text_0">请输入QQ</string>
+    <string name="picker_edit_hint_text_0">Color Value</string>
+    <string name="activity_led_text_0">1</string>
+    <string name="activity_led_hint_text_1">内容</string>
+    <string name="activity_led_text_2">字体颜色</string>
+    <string name="activity_led_text_3">背景颜色</string>
+    <string name="activity_led_text_4">bilibili</string>
+    <string name="activity_led_text_5">滚动显示</string>
+    <string name="activity_led_text_6">翻滚显示</string>
+    <string name="activity_led_text_7">滚动-翻滚 速度</string>
+    <string name="activity_led_text_8">开始</string>
+    <string name="dialog_theme_text_0">stytool</string>
+    <string name="dialog_theme_text_1">靛青</string>
+    <string name="dialog_theme_text_2">原谅</string>
+    <string name="dialog_theme_text_3">红</string>
+    <string name="dialog_theme_text_4">蓝灰色</string>
+    <string name="dialog_theme_text_5">黑色</string>
+    <string name="dialog_theme_text_6">紫色</string>
+    <string name="dialog_theme_text_7">橙子</string>
+    <string name="dialog_theme_text_8">粉</string>
+    <string name="hc_list_item_text_0">s</string>
+    <string name="lxw_register_hint_text_0">请输入用户昵称</string>
+    <string name="lxw_register_hint_text_1">请输入登录邮箱</string>
+    <string name="lxw_register_hint_text_2">密码</string>
+    <string name="lxw_register_hint_text_3">再次输入密码</string>
+    <string name="lxw_register_text_4">注册</string>
+    <string name="view_rv_item_text_0">5252163</string>
+    <string name="activity_bain_hint_text_0">翻译查询内容</string>
+    <string name="activity_bain_text_2">时刻为你快速翻译【 有道翻译APi 】</string>
+    <string name="activity_buff_text_0">root秒装</string>
+    <string name="activity_buff_text_1">开启智能安装服务</string>
+    <string name="activity_buff_text_2">智能安装</string>
+    <string name="activity_main_text_0">选择视频</string>
+    <string name="dialog_modify_text_0">名称：</string>
+    <string name="dialog_modify_text_1">网址：</string>
+    <string name="fragment_main_text_0">13800138000</string>
+    <string name="item_feedback_text_0">开启辅助服务</string>
+    <string name="item_feedback_text_1">锁屏启动应用执行解锁</string>
+    <string name="item_feedback_text_2">微信自动回复</string>
+    <string name="item_feedback_text_3">微信|QQ|腾讯Tim</string>
+    <string name="item_feedback_text_4">状态栏|通知栏常驻</string>
+    <string name="item_feedback_text_5">微信抢红包|QQ抢红包</string>
+    <string name="lxw_chose_img_text_0">所有图片</string>
+    <string name="lxw_chose_img_text_1">100张</string>
+    <string name="activity_3main_text_0">选择视频</string>
+    <string name="activity_3main_text_1">提取视频多张帧数图片</string>
+    <string name="activity_4main_text_0">红包现金0.10元</string>
+    <string name="activity_4main_text_1">现金0.15元</string>
+    <string name="activity_4main_text_2">红包现金0.20元</string>
+    <string name="activity_4main_text_3">QQ会员1个月</string>
+    <string name="activity_4main_text_4">30号中午12点开启</string>
+    <string name="activity_4main_text_5">开始抽奖</string>
+    <string name="activity_4main_text_6">红包现金0.30元</string>
+    <string name="activity_4main_text_7">激活妮哩帐号</string>
+    <string name="activity_4main_text_8">红包现金0.05元</string>
+    <string name="activity_4main_text_9">红包现金0.35元</string>
+    <string name="activity_4main_text_10">荣耀皮肤:地狱火 永久</string>
+    <string name="activity_4main_text_11">红包现金71元</string>
+    <string name="activity_4main_text_12">移动卡10元话费</string>
+    <string name="activity_5main_text_0">没有文件</string>
+    <string name="activity_main2_hint_text_0">输入百度云链接</string>
+    <string name="list_item_file_text_0">dialog_</string>
+    <string name="lxw_item_helps_text_0">luxin</string>
+    <string name="lxw_item_helps_text_1">5秒前</string>
+    <string name="lxw_item_helps_text_2">哈哈哈</string>
+    <string name="lxw_item_helps_text_3">这是内容好不好好啊.</string>
+    <string name="lxw_look_image_text_0">1/9</string>
+    <string name="lxw_robot_chat_hint_text_0">Text</string>
+    <string name="smali_layout_2_hint_text_0">假如:reboot</string>
+    <string name="view_rv_item_s_text_0">525</string>
+    <string name="activity_33main_hint_text_0">快递号</string>
+    <string name="activity_33main_hint_text_1">单号</string>
+    <string name="activity_33main_text_2">查询</string>
+    <string name="activity_55main_text_0">免费抽现金及会员(AD推荐)</string>
+    <string name="activity_change_hint_text_0">请输入手机号码</string>
+    <string name="activity_detail_text_0">使用说明</string>
+    <string name="activity_detail_text_2">隐私政策</string>
+    <string name="activity_detail_text_4">其他</string>
+    <string name="activity_detail_text_6">声明</string>
+    <string name="lxw_item_helps2_text_0">luxin</string>
+    <string name="lxw_item_helps2_text_1">5秒前</string>
+    <string name="lxw_item_helps2_text_2">哈哈哈</string>
+    <string name="lxw_item_helps2_text_3">这是内容好不好好啊.</string>
+    <string name="lxw_item_message_text_0">Luxin</string>
+    <string name="lxw_item_message_text_1">未读</string>
+    <string name="lxw_item_message_text_2">这是内容好不好好啊？</string>
+    <string name="lxw_item_message_text_3">3</string>
+    <string name="lxw_robot_to_msg_text_0">123456789</string>
+    <string name="lxw_user_profile_text_0">头像</string>
+    <string name="lxw_user_profile_text_1">昵称</string>
+    <string name="lxw_user_profile_text_2">Luxin</string>
+    <string name="lxw_user_profile_text_3">积分</string>
+    <string name="lxw_user_profile_text_4">10</string>
+    <string name="lxw_user_profile_text_5">性别</string>
+    <string name="lxw_user_profile_text_6">男</string>
+    <string name="lxw_user_profile_text_7">邮箱</string>
+    <string name="lxw_user_profile_text_8">10086@qq.com</string>
+    <string name="lxw_user_profile_text_9">个性签名</string>
+    <string name="lxw_user_profile_text_10">这个家伙很懒，什么都没有写</string>
+    <string name="lxw_user_profile_text_11">完成</string>
+    <string name="navigation_header_hint_text_0">生成后妮哩会自动复制文字！！</string>
+    <string name="process_list_item_text_0" />
+    <string name="process_list_item_text_1">关闭进程</string>
+    <string name="tabactivity_tools_text_0">刷新</string>
+    <string name="tabactivity_tools_text_1">书签</string>
+    <string name="activity_scrolling_hint_text_0">请输入要转换的数据</string>
+    <string name="activity_scrolling_text_1">转换为</string>
+    <string name="activity_scrolling_text_2">转换</string>
+    <string name="lxw_robot_from_msg_text_0">123456789</string>
+    <string name="adapter_item_layout_text_0">filename</string>
+    <string name="lxw_item_helps_comment_text_0">Luxin</string>
+    <string name="lxw_item_helps_comment_text_1">这是内容</string>
+    <string name="lxw_item_helps_comment_text_2">3</string>
+    <string name="lxw_push_helps_comment_hint_text_0">请输入评论内容</string>
+    <string name="lxw_item_popup_chose_img_text_0">所有图片</string>
+    <string name="lxw_item_popup_chose_img_text_1">100</string>
+    <string name="view_favoritesandhistory_text_0">书签</string>
+    <string name="view_favoritesandhistory_text_1">历史</string>
+    <string name="list_item_longclicked_history_text_0">删除历史</string>
+    <string name="list_item_longclicked_history_text_1">清空历史</string>
+    <string name="list_item_longclicked_favorites_text_0">修改书签</string>
+    <string name="list_item_longclicked_favorites_text_1">删除书签</string>
+    <string name="large_text">"Material is the metaphor.</string>
+
+    <string name="lable_shortcut_static_search_disable">一个记事不可用</string>
+    <string name="lable_shortcut_static_search_long">一个记事</string>
+    <string name="lable_shortcut_static_search_short">一个记事</string>
+
+
+    <string name="lable_shortcut_static_download_disable">一个记事不可用</string>
+    <string name="lable_shortcut_static_download_long">妹纸资源区</string>
+    <string name="lable_shortcut_static_download_short">妹纸资源区</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">cancel</string>
+    <string name="confirm">ok</string>
+    <string name="textview_title_unlock">Lock Setting</string>
+    <string name="textview_click_before">You can unlock it to open the new world !</string>
+    <string name="textview_click_after">Go to : https://github.com/Bilibili/MagicaSakura</string>
+
+    <string name="magicasrkura_prompt_0">隐藏着黑暗力量的钥匙啊，在我面前显示你真正的力量，小樱命令你，封印解除！</string>
+    <string name="magicasrkura_prompt_1">隐藏着星星力量的钥匙啊，在我面前显示你真正的力量，小樱命令你，封印解除！</string>
+    <string name="magicasrkura_prompt_2">库洛里多创造的库洛牌啊，请你舍弃旧形象，以小樱之名命令你，封印解除！</string>
+</resources>

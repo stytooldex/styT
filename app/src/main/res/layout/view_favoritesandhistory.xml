@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white">
+
+	<LinearLayout
+		android:id="@+id/favoritesAndHisotry_button"
+		android:layout_width="fill_parent"
+		android:layout_height="48dp"
+		android:background="@android:color/holo_blue_light"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/favorites"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="@string/view_favoritesandhistory_text_0"
+			android:textColor="@android:color/white"
+			android:textSize="20sp"
+			android:layout_weight="1.0"/>
+
+		<TextView
+			android:id="@+id/history"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="@string/view_favoritesandhistory_text_1"
+			android:textColor="@android:color/white"
+			android:textSize="20sp"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<FrameLayout
+        android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/favoritesAndHisotry_button">
+
+		<ListView
+			android:id="@+id/favoritesAndHisotry_content_favorite"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:dividerHeight="1dp">
+
+		</ListView>
+
+		<ListView
+			android:id="@+id/favoritesAndHisotry_content_history"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:visibility="gone">
+
+		</ListView>
+
+	</FrameLayout>
+
+</RelativeLayout>
+

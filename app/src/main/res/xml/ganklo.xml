@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="thirdC"
+        android:title="启动">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="if_Theme"
+            android:title="原生状态栏" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="if_ThemeS0"
+            android:title="主页排列3*3" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="if_ThemeS_"
+            android:title="直接启动pay" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="if_ThemeS"
+            android:title="直接启动妹纸资源" />
+
+        <EditTextPreference
+            android:dialogTitle="回复信息"
+            android:key="setting_re_reply_message"
+            android:title="抢红包回复信息" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="third"
+        android:title="其他">
+        <Preference
+            android:key="iob"
+            android:title="捐款" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="if_c"
+            android:title="QQ名片赞二模式" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort_e"
+        android:title="@android:string/ok"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_done_white_24dp" />
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_se"
+            android:title="竖直" />
+        <item
+            android:id="@+id/nav_blog"
+            android:title="反字" />
+
+        <item
+            android:id="@+id/nav_meizi"
+            android:title="花藤" />
+
+        <item
+            android:id="@+id/nav_gank"
+            android:title="菊花文" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="菊花文B" />
+        <item
+            android:id="@+id/nav_blogvip"
+            android:title="三角" />
+        <item
+            android:id="@+id/nav_blogsvip"
+            android:title="叶子" />
+        <item
+            android:id="@+id/apktool_textview"
+            android:title="竖线（A）" />
+        <item
+            android:id="@+id/apktool_textviewa"
+            android:title="竖线（B）" />
+        <item
+            android:id="@+id/apktool_textviewb"
+            android:title="竖线（c）" />
+        <item
+            android:id="@+id/a_upi"
+            android:title="横线字（部分ROM无显示效果）" />
+    </group>
+
+</menu>

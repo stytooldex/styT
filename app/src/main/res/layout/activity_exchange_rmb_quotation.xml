@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnICBC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/exchange_api_title_bank_icbc"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnCMB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/exchange_api_title_bank_cmb"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnCCB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/exchange_api_title_bank_ccb"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBOC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/exchange_api_title_bank_boc"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnBCM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/exchange_api_title_bank_bcm"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnABC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/exchange_api_title_bank_abc"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd"
+        android:padding="10dp"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:cacheColorHint="#00000000"
+        android:divider="#ffd1d1d1"
+        android:dividerHeight="1px"
+        android:listSelector="#00000000" />
+
+</LinearLayout>

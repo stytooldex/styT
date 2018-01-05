@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- android:targetClass="点击后跳转的Activity"
+            android:targetPackage="应用包名" />-->
+    <!--搜索-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/lable_shortcut_static_search_disable"
+        android:shortcutId="shortcut_id_search"
+        android:shortcutLongLabel="@string/lable_shortcut_static_search_long"
+        android:shortcutShortLabel="@string/lable_shortcut_static_search_short"
+        tools:ignore="UnusedAttribute">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="nico.styTool.Update"
+            android:targetPackage="nico.styTool">
+            <extra
+                android:name="shortcutType"
+                android:value="1" />
+        </intent>
+
+    </shortcut>
+
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/lable_shortcut_static_download_disable"
+        android:shortcutId="shortcut_id_download"
+        android:shortcutLongLabel="@string/lable_shortcut_static_download_long"
+        android:shortcutShortLabel="@string/lable_shortcut_static_download_short"
+        tools:ignore="UnusedAttribute">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="nico.Compat.GirlFragment"
+            android:targetPackage="nico.Compat">
+            <extra
+                android:name="shortcutType"
+                android:value="2" />
+        </intent>
+
+    </shortcut>
+</shortcuts>

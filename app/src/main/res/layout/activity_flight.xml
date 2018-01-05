@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnThreeCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minEms="3"
+        android:singleLine="true"
+        android:text="@string/flight_api_title_city_three_code"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/etStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:hint="@string/flight_api_input_start"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#ff000000"
+        android:textColorHint="#ffa3a3a3"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:hint="@string/flight_api_input_end"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#ff000000"
+        android:textColorHint="#ffa3a3a3"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:hint="@string/flight_api_input_number"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#ff000000"
+        android:textColorHint="#ffa3a3a3"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/flight_api_btn_query_by_line"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minEms="3"
+            android:singleLine="true"
+            android:text="@string/flight_api_btn_query_by_no"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd"
+        android:padding="10dp"
+        android:text="@string/traintickets_api_result_title"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:cacheColorHint="#00000000"
+        android:divider="#ffd1d1d1"
+        android:dividerHeight="1px"
+        android:listSelector="#00000000" />
+
+</LinearLayout>

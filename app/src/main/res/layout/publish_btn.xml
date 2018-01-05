@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:id="@+id/id_lxw_push_btn_btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:padding="8dip"
+            app:srcCompat="@drawable/ic_photo_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_lxw_push_btn_btnEmotion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:padding="8dip"
+            app:srcCompat="@drawable/ic_insert_emoticon_black_24dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:padding="8dip"
+            app:srcCompat="@drawable/ic_send_black_24dp" />
+
+    </LinearLayout>
+</LinearLayout>

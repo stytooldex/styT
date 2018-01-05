@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="视频动态壁纸">
+
+        <Preference
+            android:key="ioa__"
+            android:title="视频资源下载-第一步" />
+        <Preference
+            android:key="ioa_"
+            android:title="选择视频文件-第二步" />
+        <Preference
+            android:key="iob"
+            android:title="设置壁纸-第三步" />
+        <EditTextPreference
+            android:dialogTitle="自定义视频路径"
+            android:key="if_b_"
+            android:summary="绝对路径设置（假如/sdcard/Download/smali.mp4）"
+            android:title="自定义视频路径" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="其他">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="ix_"
+            android:title="开启声音" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="简单教程">
+        <Preference
+            android:key="ioa_b_0"
+            android:title="视频教程" />
+        <Preference
+            android:key="ioa_b_"
+            android:title="如何设置到锁屏" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRMBQuotation"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minEms="3"
+        android:singleLine="true"
+        android:text="@string/exchange_api_title_rmb_quotation"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnCurrency"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minEms="3"
+        android:singleLine="true"
+        android:text="@string/exchange_api_title_currency"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnByCode"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minEms="3"
+        android:singleLine="true"
+        android:text="@string/exchange_api_title_by_code"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnRealTime"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minEms="3"
+        android:singleLine="true"
+        android:text="@string/exchange_api_title_real_time"
+        android:textSize="18dp" />
+
+</LinearLayout>

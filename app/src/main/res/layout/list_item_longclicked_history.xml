@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="16dp">
+
+	<TextView
+		android:id="@+id/item_longclicked_deleteHistory"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/white"
+		android:textSize="16sp"
+		android:text="@string/list_item_longclicked_history_text_0"/>
+
+	<TextView
+		android:id="@+id/item_longclicked_deleteAllHistories"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/white"
+		android:textSize="16sp"
+		android:text="@string/list_item_longclicked_history_text_1"
+		android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+

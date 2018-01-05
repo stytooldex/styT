@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="?attr/dialogPreferredPadding"
+    android:paddingRight="?attr/dialogPreferredPadding"
+    android:paddingTop="@dimen/abc_dialog_padding_top_material">
+
+
+    <EditText
+        android:id="@+id/back_mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/back_ma_hint_text_0"
+        android:maxLines="1" />
+
+</LinearLayout>
+

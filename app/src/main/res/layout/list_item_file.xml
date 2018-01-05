@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/list_item_file_text_0"
+        android:theme="@style/ToolbarTheme"
+        tools:ignore="EllipsizeMaxLines" />
+
+    <ImageView
+        android:id="@+id/fileIcon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:contentDescription="TODO"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/dir_enter_image"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:contentDescription="TODO"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/fileChildCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

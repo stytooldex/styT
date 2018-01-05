@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="MCC"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/etMCC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/enter_mcc"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ffa3a3a3"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="MNC"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/etMNC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/enter_mnc"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ffa3a3a3"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="Cell Lac"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/etLAC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/enter_cell_lac"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ffa3a3a3"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="Cell ID"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/etCELL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/enter_cell_id"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ffa3a3a3"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/search" />
+
+        <LinearLayout
+            android:id="@+id/llResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_id"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_addr"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvAddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_cell"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvCell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_googleLat"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvGoogleLat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_googleLng"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvGoogleLng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_lac"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvLac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_lat"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvLat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_lng"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvLng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_mcc"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvMcc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_mnc"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvMnc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/station_api_title_precision"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvPrecision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

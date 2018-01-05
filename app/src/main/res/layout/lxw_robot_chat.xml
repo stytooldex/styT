@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10000000"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lxw_id_robot_chat_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center|bottom"
+        android:padding="6dp">
+
+        <nico.styTool.CircleImageView
+            android:id="@+id/lxw_id_robot_from_userimg"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/lxw_id_robot_chat_edi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hint="@string/lxw_robot_chat_hint_text_0"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/lxw_id_robot_chat_btnsend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/ic_send_grey_700_24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

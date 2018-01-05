@@ -1,0 +1,96 @@
+<CheckBoxPreference
+	android:defaultValue="false"
+	android:key="if_BI"
+	android:title="启动音效" />
+<EditTextPreference
+	android:dialogTitle="输入加密id"
+	android:key="if_int"
+	android:numeric="integer"
+	android:summary="开发者调试"
+	android:title="Application ID" />
+。
+LayoutInflater inflater = LayoutInflater.from(this);
+	View view = inflater.inflate(R.layout.lox, null);
+	final EditText ediComment = (EditText) view.findViewById(R.id.loxEditText1);
+	//ediComment.setError(null);
+
+	AlertDialog.Builder builder = new AlertDialog.Builder(this);
+	builder.setView(view).setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+	@Override
+	public void onClick(DialogInterface dialog, int which) {
+	String comment = ediComment.getText().toString().trim();
+	if (TextUtils.isEmpty(comment)) {
+	//ediComment.setError("内容不能为空");
+	// ToastUtil.show(this, "内容不能为空", Toast.LENGTH_SHORT);
+	finish();
+	return;
+	}
+	SharedPreferences sharedPreferencesb = getSharedPreferences("nico.styTool_preferences", AppCompatActivity.MODE_PRIVATE);
+	String r = sharedPreferencesb.getString("if_b", "");
+	String s = comment;
+	String sr = r;
+	if (s.equals(sr)) {
+	//Toast.makeText(d.this, "相等", Toast.LENGTH_SHORT).show();
+	} else {
+	finish();
+	}
+	//   push(comment, myUser);
+	}
+	}).setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+	@Override
+	public void onClick(DialogInterface dialog, int which) {
+	finish();
+	}
+	}).setCancelable(false).create().show();
+
+
+
+
+	public void Bin7(View view) {
+	LayoutInflater nflater = LayoutInflater.from(this);
+	View ew = nflater.inflate(R.layout.a_dddr, null);
+	final EditText nt = (EditText) ew.findViewById(R.id.adddrEditText1);
+
+	AlertDialog.Builder uilder = new AlertDialog.Builder(this);
+	uilder.setView(ew).setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+	@Override
+	public void onClick(DialogInterface dialog, int which) {
+	String comment = nt.getText().toString().trim();
+	if (TextUtils.isEmpty(comment)) {
+	//ediComment.setError("内容不能为空");
+	//ToastUtil.show(SimpleActivity.this, "内容不能为空", Toast.LENGTH_SHORT);
+	return;
+	}
+	new Handler().postDelayed(new Runnable() {
+	@Override
+	public void run() {
+	tab();
+	}
+	}, 1200);
+	nico.SPUtils.put(SimpleActivity.this, "bfi", comment);
+	xp_ feedback = new xp_();
+	feedback.setContent(comment + "");
+	feedback.save(SimpleActivity.this, new SaveListener() {
+
+	@Override
+	public void onFailure(int p1, String p2) {
+	//Toast.makeText(getActivity(), "举报失败", Toast.LENGTH_SHORT).show();
+	}
+
+	@Override
+	public void onSuccess() {
+
+	}
+
+	});
+	//	push(comment, myUser);
+	}
+	}).setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+	@Override
+	public void onClick(DialogInterface dialog, int which) {
+	return;
+	}
+	}).create().show();
+
+	}
+

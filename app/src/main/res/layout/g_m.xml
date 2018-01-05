@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="5dp"
+        android:padding="16dp"
+        android:text="查券宝是一款查询淘宝任意商品是否有优惠券的APP\n可以直接一张图、或者几句话\n可以查淘宝内部券的APP，可以省不少钱\n(合作推荐)" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/appbar_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/appbili_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        app:layout_anchor="@id/appbar_g"
+        app:layout_anchorGravity="bottom|right|end"
+        app:srcCompat="@drawable/ic_get_app_white_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>

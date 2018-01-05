@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="开关服务">
+        <CheckBoxPreference
+            android:key="auto_send_message"
+            android:title="QQ信息连发器开关" />
+        <CheckBoxPreference
+            android:dependency="auto_send_message"
+            android:key="auto_send_message_copy"
+            android:summary="使用第一个剪帖板内容"
+            android:title="使用剪帖板内容" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="设置服务">
+        <EditTextPreference
+            android:dependency="auto_send_message"
+            android:dialogTitle="设置内容"
+            android:key="auto_send_message_text"
+            android:summary="设置轰炸内容"
+            android:title="内容" />
+        <EditTextPreference
+            android:dependency="auto_send_message"
+            android:inputType="phone"
+            android:dialogTitle="设置频率-ms"
+            android:key="auto_send_message_frequency"
+            android:summary="推荐设置为0"
+            android:title="频率-ms" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="启动服务">
+        <Preference
+            android:dependency="auto_send_message"
+            android:key="donate_alipay"
+            android:summary="找到妮哩-开启>进入聊天界面点击输入框自动连发"
+            android:title="启动QQ信息连发器" />
+    </PreferenceCategory>
+</PreferenceScreen>

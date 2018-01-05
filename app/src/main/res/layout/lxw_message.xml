@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/lxw_id_message_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:isLoadMore="true"
+        app:overlay="true"
+        app:wave_color="#90ffffff"
+        app:wave_show="true">
+
+        <ListView
+            android:id="@+id/lxw_id_message_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#10000000"
+            android:dividerHeight="4dp" />
+    </com.cjj.MaterialRefreshLayout>
+</LinearLayout>

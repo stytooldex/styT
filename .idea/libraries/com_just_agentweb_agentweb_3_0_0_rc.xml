@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.just.agentweb:agentweb-3.0.0-rc">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/agentweb-3.0.0-rc.aar/fd9587c994f2b0625f62d0c8007f7935/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/agentweb-3.0.0-rc.aar/fd9587c994f2b0625f62d0c8007f7935/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.just.agentweb/agentweb/3.0.0-rc/86e05a26f0562f40c07c6536221e14802246503f/agentweb-3.0.0-rc-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

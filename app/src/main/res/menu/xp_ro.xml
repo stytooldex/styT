@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lxw_action_edi_user_profilea"
+        app:showAsAction="ifRoom"
+        android:title="分享结果" />
+    <item
+        android:id="@+id/action_lxw"
+        app:showAsAction="always" 
+        android:title="复制结果" />
+</menu>

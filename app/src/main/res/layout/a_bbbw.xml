@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mtv_au"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_bbbw_text_0"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/mtv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_bbbw_text_1"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mabbbwTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="@string/a_bbbw_text_2" />
+
+        <TextView
+            android:id="@+id/mabbbwTextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/a_bbbw_text_3" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/mtv_content"
+        android:lineSpacingExtra="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3" />
+
+
+</LinearLayout>
+

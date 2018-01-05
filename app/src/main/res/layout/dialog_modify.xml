@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_margin="5dp"
+	android:background="@android:color/white"
+	android:orientation="vertical">
+
+	<LinearLayout
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/dialog_back"
+		android:gravity="center">
+
+		<TextView
+            android:layout_width="48dp"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textSize="15sp"
+			android:text="@string/dialog_modify_text_0"/>
+
+		<EditText
+			android:id="@+id/dialog_name_input"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/dialog_back"
+		android:layout_marginTop="10dp"
+		android:gravity="center">
+
+		<TextView
+            android:layout_width="48dp"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textSize="15sp"
+			android:text="@string/dialog_modify_text_1"/>
+
+		<EditText
+			android:id="@+id/dialog_url_input"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:inputType="textUri"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

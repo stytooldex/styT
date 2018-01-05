@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+	android:fitsSystemWindows="true"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<android.support.design.widget.AppBarLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="网址获取源代码">
+
+		</android.support.v7.widget.Toolbar>
+		</android.support.design.widget.AppBarLayout>
+		<Button
+			android:id="@+id/urlConnection"
+			android:layout_width="0dip"
+			android:layout_height="0dip"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:id="@+id/tv_no"
+					android:singleLine="true"
+					android:hint="@string/html_main_hint_text_0"/>
+
+			</android.support.design.widget.TextInputLayout>
+
+			<ScrollView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:id="@+id/webDataShow"
+					android:textIsSelectable="true"
+					android:autoLink="email|web"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"/>
+
+			</ScrollView>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|end"
+		android:layout_margin="@dimen/fab_margin"
+		app:srcCompat="@drawable/abc_ic_menu_cut_mtrl_alpha"/>
+
+</android.support.design.widget.CoordinatorLayout>
+

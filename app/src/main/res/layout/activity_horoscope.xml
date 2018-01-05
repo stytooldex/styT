@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <Spinner
+                android:id="@+id/spYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:gravity="left|top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/horoscope_api_title_year"
+                android:textColor="#ff000000"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:gravity="left|top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/horoscope_api_title_month"
+                android:textColor="#ff000000"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:gravity="left|top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/horoscope_api_title_day"
+                android:textColor="#ff000000"
+                android:textSize="18dp" />
+            
+            <Spinner
+                android:id="@+id/spHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:gravity="left|top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/horoscope_api_title_hour"
+                android:textColor="#ff000000"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/horoscope_api_title_horoscope"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvHoroscope"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/horoscope_api_title_lunar"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvLunar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/horoscope_api_title_lunarDate"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvLunarDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="right|top"
+                    android:minEms="5"
+                    android:text="@string/horoscope_api_title_zodiac"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=":"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvZodiac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:gravity="left|top"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

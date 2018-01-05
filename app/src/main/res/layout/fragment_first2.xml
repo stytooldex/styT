@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nico.styTool.firstFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/activity_detail_text_0"
+                android:textColor="#ff4CAF50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="1.魅族手机，flyme系统要关掉游戏模式或者打开悬浮球，才能使用返回键和调出多任务\n2.本程序只有5%功能需要root"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/activity_detail_text_2"
+                android:textColor="#ff4CAF50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="1.妮哩不会与其他软件及组织和个人分享您的个人信息\n2.记事本和帐号系统“代码及服务器采取最安全的措施保护及字符串string多次加密（个人算法）”"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/activity_detail_text_4"
+                android:textColor="#ff4CAF50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="本应用欢迎转载推荐\n如果你愿意为本程序的设计提出改进及建议，提交问题"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/activity_detail_text_6"
+                android:textColor="#ff4CAF50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="1.本程序为免费无广告应用，个人作品、非商业\n2.使用本程序时，程序的内容可能会因您使用软件版本的不同而有差别\n3.进行本软件、反编译、回编译，或者以其他方式修改本软件，可能会因修改无法运行\n4.转载本应用（可选注明来自）:https://www.coolapk.com/apk/nico.styTool"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/lxw_id_pu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_done_black_24dp" />
+    </LinearLayout>
+</LinearLayout>

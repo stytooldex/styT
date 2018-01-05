@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lxw_action_menu_logout"
+        android:title="退出当前帐号"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/_menu_logout"
+        android:title="自助激活"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PickerEditText"
+    android:hint="@string/picker_edit_hint_text_0"
+    android:inputType="textNoSuggestions"
+    android:textColor="@android:color/white" />

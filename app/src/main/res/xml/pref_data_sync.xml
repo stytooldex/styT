@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="root管理器">
+
+        <Preference
+            android:key="sync_frequency"
+            android:summary="修改设备(lcd)"
+            android:title="dpi更改" />
+        <Preference
+            android:key="sync_frequency2"
+            android:summary="删除系统软件"
+            android:title="预装软件管理" />
+        <Preference
+            android:key="sync_frequency7"
+            android:title="wifi密码查看" />
+        <Preference
+            android:key="sync_frequency8"
+            android:title="王者荣耀视野修改" />
+        <Preference
+            android:key="sync_frequency1"
+            android:summary="耗电过快时重置校准电池"
+            android:title="电池校准" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="其他">
+        <Preference
+            android:key="sync_frequency3"
+            android:title="自定义运行shell命令-终端" />
+        <Preference
+            android:key="sync_frequency4"
+            android:title="重启到recovery" />
+        <Preference
+            android:key="sync_frequency5"
+            android:title="刷入recovery" />
+        <Preference
+            android:key="sync_frequency6"
+            android:title="关机" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

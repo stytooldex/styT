@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<android.support.design.widget.AppBarLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:theme="@style/AppTheme.AppBarOverlay">
+
+		<android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/toolbar"
+
+			android:textColor="#FFFFFF"
+			app:popupTheme="@style/AppTheme.PopupOverlay"
+			app:title="GIF合成">
+
+	    </android.support.v7.widget.Toolbar>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<GridView
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+	    android:id="@+id/list"
+	    android:layout_weight="1.0"
+	    android:numColumns="2">
+
+	</GridView>
+
+	<LinearLayout
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+	    <Button
+		android:layout_height="match_parent"
+		android:text="@string/hc_text_0"
+		android:layout_width="match_parent"
+
+		android:textColor="#FFFFFF"
+		android:id="@+id/bn_add"
+		android:layout_margin="10dp"
+		android:layout_weight="1.0"/>
+	    
+	    <Button
+		android:layout_height="match_parent"
+		android:text="@string/hc_text_1"
+
+		android:textColor="#FFFFFF"
+		android:layout_width="match_parent"
+		android:id="@+id/bn_clear"
+		android:layout_margin="10dp"
+		android:layout_weight="1.0"/>
+
+	    <Button
+		android:layout_height="match_parent"
+
+		android:textColor="#FFFFFF"
+		android:text="@string/hc_text_2"
+		android:layout_width="match_parent"
+		android:layout_margin="10dp"
+		android:id="@+id/bn_hc"
+		android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
